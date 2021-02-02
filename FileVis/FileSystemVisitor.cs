@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace FileVis
 {
-    class FileSystemVisitor
+    public class FileSystemVisitor
     {
         private readonly DirectoryInfo _startDirectory;
         private readonly Func<FileSystemInfo, bool> _filter;
